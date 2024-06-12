@@ -59,7 +59,5 @@ Example URL: GET localhost:8080/review/find?reviewId=52
  Data Transfer: JSON 
  
  Java Version: Java 17 (or the version you're using)
-## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
