@@ -16,6 +16,7 @@ Request Example: json Copy code { "title": "Salaar", "genre": "ACTION" }
 # Finding a Movie by Title:
 
 Endpoint: GET /movie/title?title={title}
+![getByTitle](https://github.com/itsroshan137/Horizontal-Swiper/assets/90986796/691d2875-4126-43fe-b361-5d7f42aac9b5)
 
 Description: Users can search for a movie by its title. The MovieController handles this request, using the MovieService to retrieve the movie details from the database. 
 
@@ -24,6 +25,7 @@ Example URL: GET localhost:8080/movie/title?title=KGF Finding
 # Movies by Genre:
 
 Endpoint: GET /movie/genre?genre={genre}
+![getByGenre](https://github.com/itsroshan137/Horizontal-Swiper/assets/90986796/442e2a24-440a-4550-a18c-6fe73a59ae29)
 
  Description: Users can find movies by genre. The MovieController uses the MovieService to fetch and sort movies of the specified genre by their ratings. 
  
@@ -32,6 +34,8 @@ Example URL: GET localhost:8080/movie/genre?genre=ACTION
 # Adding a Review:
 
 Endpoint: POST /review/add 
+![addReview](https://github.com/itsroshan137/Horizontal-Swiper/assets/90986796/c7765e17-76a9-4627-a466-2b46b2ca3f02)
+
 
 Description: Users can add reviews for movies. The ReviewController processes the review request and uses ReviewService to save the review and update the movie’s average rating.
 
@@ -40,6 +44,7 @@ Request Example: json { "movieId": 4, "movieReview": "It was good enough", "rati
 # Finding a Review by ID:
 
 Endpoint: GET /review/find?reviewId={reviewId} 
+![getReviewByID](https://github.com/itsroshan137/Horizontal-Swiper/assets/90986796/6022feaa-3db8-4c6e-9643-c6df1ea3a96c)
 
 Description: Users can retrieve a review by its ID. The ReviewController handles this request, using the ReviewService to fetch the review details. 
 
