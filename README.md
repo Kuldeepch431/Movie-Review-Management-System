@@ -6,6 +6,7 @@ The Movie Review Management System is a Spring Boot application designed to mana
 # Adding a Movie:
 
 Endpoint: POST /admin/movie/add
+![admin_add](https://github.com/itsroshan137/Horizontal-Swiper/assets/90986796/2e5c39d1-9fbb-4688-88e2-01885d846e92)
 
 
 Description: The administrator can add a new movie with a title and genre. The initial rating is set to 0.0. This is handled by the AdminController which uses AdminService to save the movie to the database.
